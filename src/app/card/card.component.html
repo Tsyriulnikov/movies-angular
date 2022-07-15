@@ -2,4 +2,9 @@
 <h2>{{title}}</h2>
   <p>{{text}}  </p>
 <img src={{imgUrl}}>
+<div class="buttons">
+<button (click)="changeTitle()">Change title</button>
+<button (click)="title='Inline title'">Change title inline</button>
+</div>
+  <div class="input" type="text" (input)="inputHandler($event)" )></div>
 </div>
